@@ -2,10 +2,15 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Home Page</title>
+    <title>Tabuada</title>
     <link href="/css/default.css" rel="stylesheet" />
 </head>
 <body>
-    <p>Olá {{nome}}!!!</p>
+    <ul>
+        {{#each valores}}
+        <li>{{this}}</li>
+        {{/each}}
+        </ul>
+
 </body>
 </html>
